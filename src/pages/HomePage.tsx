@@ -65,6 +65,7 @@ const MainPage: React.FC = () => {
     };
     setStudentData(updated);
   };
+
   const [allElectivesList, setAllElectivesList] = useState<Subject[]>(
     ElectiveSubjects.subjects
   );
@@ -82,6 +83,7 @@ const MainPage: React.FC = () => {
 
   const handleDeleteElective = (semNo: number, index: number) => {
     const subjectsCopy = [...studentData.sems[semNo].subjects];
+    const deletedSubject = subjectsCopy[index];
     subjectsCopy.splice(index, 1);
 
     const updated: StudentData = {
@@ -94,6 +96,14 @@ const MainPage: React.FC = () => {
         },
       },
     };
+
+    if (
+      ElectiveSubjects.subjects.some(
+        (s) => s.sub_name === deletedSubject.sub_name
+      )
+    ) {
+      setAllElectivesList((prev) => [...prev, deletedSubject]);
+    }
 
     setStudentData(updated);
   };
