@@ -1,27 +1,32 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import type { StudentData } from "../types";
+import StudentDataTemplate from "../public/StudentDataTemplate.json";
 
 const LoginPage: React.FC = () => {
   const [regNo, setRegNo] = useState("");
   const navigate = useNavigate();
 
   const handleLogin = () => {
+    const trimmedRegNo = regNo.trim();
+
+    if (trimmedRegNo.length !== 10) {
+      alert("Register number is invalid.");
+      return;
+    }
+
     const allData = JSON.parse(localStorage.getItem("StudentCGPA") || "{}");
 
-    if (!allData[regNo]) {
+    if (!allData[trimmedRegNo]) {
       const template: StudentData = {
-        reg_no: regNo,
-        cgpa: 0,
-        credits: 0,
-        overall_credits: 0,
-        sems: {},
+        ...StudentDataTemplate,
+        reg_no: trimmedRegNo,
       };
-      allData[regNo] = template;
+      allData[trimmedRegNo] = template;
       localStorage.setItem("StudentCGPA", JSON.stringify(allData));
     }
 
-    localStorage.setItem("loggedInRegNo", regNo);
+    localStorage.setItem("loggedInRegNo", trimmedRegNo);
     navigate("/");
   };
 
@@ -36,7 +41,12 @@ const LoginPage: React.FC = () => {
       />
       <button
         onClick={handleLogin}
-        className="bg-blue-500 text-white px-4 py-2 rounded"
+        disabled={regNo.trim().length !== 10}
+        className={`px-4 py-2 rounded text-white transition-colors duration-200 ${
+          regNo.trim().length !== 10
+            ? "bg-gray-400 cursor-not-allowed"
+            : "bg-blue-500 hover:bg-blue-600"
+        }`}
       >
         Login
       </button>
