@@ -1,0 +1,86 @@
+{
+    "reg_no": null,
+    "cgpa": 0,
+    "credits": 0,
+    "overall_credits": 186,
+    "sems": {
+        "sem1": {
+            "enabled": false,
+            "sem_no": 1,
+            "subject_count": 5,
+            "gpa": 0,
+            "credits": 24,
+            "subjects": [
+                {
+                    "sub_name": "HS6151 - Technical English I",
+                    "category": "HS",
+                    "credit": 5,
+                    "grade": null
+                },
+                {
+                    "sub_name": "PH6151 - Engineering Physics",
+                    "category": "BS",
+                    "credit": 5,
+                    "grade": null
+                },
+                {
+                    "sub_name": "MA6151 - Mathematics I",
+                    "category": "BS",
+                    "credit": 5,
+                    "grade": null
+                },
+                {
+                    "sub_name": "GE6151 - Computer Programming",
+                    "category": "HC",
+                    "credit": 6,
+                    "grade": null
+                },
+                {
+                    "sub_name": "GE6152 - Engineering Graphics",
+                    "category": "HC",
+                    "credit": 3,
+                    "grade": null
+                }
+            ]
+        },
+        "sem2": {
+            "enabled": false,
+            "sem_no": 2,
+            "subject_count": 5,
+            "gpa": 0,
+            "credits": 24,
+            "subjects": [
+                {
+                    "sub_name": "HS6251 - Technical English II",
+                    "category": "HS",
+                    "credit": 5,
+                    "grade": null
+                },
+                {
+                    "sub_name": "CY6251 - Engineering Chemistry",
+                    "category": "BS",
+                    "credit": 5,
+                    "grade": null
+                },
+                {
+                    "sub_name": "MA6251 - Mathematics II",
+                    "category": "BS",
+                    "credit": 5,
+                    "grade": null
+                },
+                {
+                    "sub_name": "CS6251 - Programming in C",
+                    "category": "HC",
+                    "credit": 5,
+                    "grade": null
+                },
+                {
+                    "sub_name": "GE6252 - Basic Electrical Engineering",
+                    "category": "HC",
+                    "credit": 4,
+                    "grade": null
+                }
+            ]
+        }
+    }
+}
