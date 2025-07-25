@@ -4,7 +4,7 @@
     "credits": 0,
     "overall_credits": 186,
     "sems": {
-        "sem1": {
+        "1": {
             "enabled": false,
             "sem_no": 1,
             "subject_count": 5,
@@ -30,20 +30,20 @@
                     "grade": null
                 },
                 {
-                    "sub_name": "GE6151 - Computer Programming",
+                    "sub_name": "CS6101 - Programming in C",
                     "category": "HC",
                     "credit": 6,
                     "grade": null
                 },
                 {
-                    "sub_name": "GE6152 - Engineering Graphics",
+                    "sub_name": "CS6102 - Computational Thinking",
                     "category": "HC",
                     "credit": 3,
                     "grade": null
                 }
             ]
         },
-        "sem2": {
+        "2": {
             "enabled": false,
             "sem_no": 2,
             "subject_count": 5,
@@ -69,13 +69,13 @@
                     "grade": null
                 },
                 {
-                    "sub_name": "CS6251 - Programming in C",
-                    "category": "HC",
+                    "sub_name": "GE6251  - Engineering Graphics",
+                    "category": "ES",
                     "credit": 5,
                     "grade": null
                 },
                 {
-                    "sub_name": "GE6252 - Basic Electrical Engineering",
+                    "sub_name": "CS6103  - Application Development Practices",
                     "category": "HC",
                     "credit": 4,
                     "grade": null

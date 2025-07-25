@@ -1,0 +1,34 @@
+{
+  "subjects": [
+    {
+      "sub_name": "CS6001  - Data Mining",
+      "category": "PE",
+      "credit": 3,
+      "grade": null
+    },
+    {
+      "sub_name": "CS6006 - Cloud Computing",
+      "category": "PE",
+      "credit": 3,
+      "grade": null
+    },
+    {
+      "sub_name": "CS6007 - Information Security",
+      "category": "PE",
+      "credit": 3,
+      "grade": null
+    },
+    {
+      "sub_name": "CS6022 - Software Project Management",
+      "category": "PE",
+      "credit": 3,
+      "grade": null
+    },
+    {
+      "sub_name": "CS6002 - Soft Computing",
+      "category": "PE",
+      "credit": 3,
+      "grade": null
+    }
+  ]
+}
