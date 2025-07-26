@@ -1,7 +1,103 @@
 {
   "subjects": [
     {
-      "sub_name": "CS6001  - Data Mining",
+      "sub_name": "MA6201 - Linear Algebra",
+      "category": "MSC",
+      "credit": 5,
+      "grade": null
+    },
+    {
+      "sub_name": "CS6201 - Graph Theory",
+      "category": "MSC",
+      "credit": 5,
+      "grade": null
+    },
+    {
+      "sub_name": "EC6201 - Signals and Systems",
+      "category": "MSC",
+      "credit": 6,
+      "grade": null
+    },
+    {
+      "sub_name": "CS6202 - Theory of Computation",
+      "category": "MSC",
+      "credit": 5,
+      "grade": null
+    },
+    {
+      "sub_name": "CS6301 - Machine Learning",
+      "category": "PSC",
+      "credit": 6,
+      "grade": null
+    },
+    {
+      "sub_name": "CS6302 - Programming Paradigms",
+      "category": "PSC",
+      "credit": 4,
+      "grade": null
+    },
+    {
+      "sub_name": "CS6303 - Distributed Systems",
+      "category": "PSC",
+      "credit": 4,
+      "grade": null
+    },
+    {
+      "sub_name": "CS6304 - Software Engineering",
+      "category": "PSC",
+      "credit": 4,
+      "grade": null
+    },
+    {
+      "sub_name": "CS6305 - Microprocessors",
+      "category": "PSC",
+      "credit": 6,
+      "grade": null
+    },
+    {
+      "sub_name": "CS6306 - Parallel Programming",
+      "category": "PSC",
+      "credit": 6,
+      "grade": null
+    },
+    {
+      "sub_name": "CS6307 - Advanced Algorithms",
+      "category": "PSC",
+      "credit": 6,
+      "grade": null
+    },
+    {
+      "sub_name": "CS6308 - Java Programming",
+      "category": "PSC",
+      "credit": 6,
+      "grade": null
+    },
+    {
+      "sub_name": "CS6001 - Data Mining",
+      "category": "PE",
+      "credit": 3,
+      "grade": null
+    },
+    {
+      "sub_name": "CS6002 - Soft Computing",
+      "category": "PE",
+      "credit": 3,
+      "grade": null
+    },
+    {
+      "sub_name": "CS6003 - Big Data Analytics",
+      "category": "PE",
+      "credit": 3,
+      "grade": null
+    },
+    {
+      "sub_name": "CS6004 - Information Visualization",
+      "category": "PE",
+      "credit": 3,
+      "grade": null
+    },
+    {
+      "sub_name": "CS6005 - Deep Learning Techniques",
       "category": "PE",
       "credit": 3,
       "grade": null
@@ -19,13 +115,169 @@
       "grade": null
     },
     {
+      "sub_name": "CS6008 - Cryptography and Network Security",
+      "category": "PE",
+      "credit": 3,
+      "grade": null
+    },
+    {
+      "sub_name": "CS6009 - Mobile Networks",
+      "category": "PE",
+      "credit": 3,
+      "grade": null
+    },
+    {
+      "sub_name": "CS6010 - Wireless and Sensor Networks",
+      "category": "PE",
+      "credit": 3,
+      "grade": null
+    },
+    {
+      "sub_name": "CS6011 - GPU Computing",
+      "category": "PE",
+      "credit": 3,
+      "grade": null
+    },
+    {
+      "sub_name": "CS6012 - Embedded Systems",
+      "category": "PE",
+      "credit": 3,
+      "grade": null
+    },
+    {
+      "sub_name": "CS6013 - Unix Internals",
+      "category": "PE",
+      "credit": 3,
+      "grade": null
+    },
+    {
+      "sub_name": "CS6014 - IoT and Smart Appliances",
+      "category": "PE",
+      "credit": 3,
+      "grade": null
+    },
+    {
+      "sub_name": "CS6015 - Multicore Architectures",
+      "category": "PE",
+      "credit": 3,
+      "grade": null
+    },
+    {
+      "sub_name": "CS6016 - Graphics and Multimedia",
+      "category": "PE",
+      "credit": 3,
+      "grade": null
+    },
+    {
+      "sub_name": "CS6017 - Human Computer Interaction",
+      "category": "PE",
+      "credit": 3,
+      "grade": null
+    },
+    {
+      "sub_name": "CS6018 - Image Processing",
+      "category": "PE",
+      "credit": 3,
+      "grade": null
+    },
+    {
+      "sub_name": "CS6019 - Augmented Reality and Virtual Reality",
+      "category": "PE",
+      "credit": 3,
+      "grade": null
+    },
+    {
+      "sub_name": "CS6020 - Digital Signal Processing",
+      "category": "PE",
+      "credit": 3,
+      "grade": null
+    },
+    {
+      "sub_name": "CS6021 - Software Testing & Quality Assurance",
+      "category": "PE",
+      "credit": 3,
+      "grade": null
+    },
+    {
       "sub_name": "CS6022 - Software Project Management",
       "category": "PE",
       "credit": 3,
       "grade": null
     },
     {
-      "sub_name": "CS6002 - Soft Computing",
+      "sub_name": "CS6023 - Software Test Automation",
+      "category": "PE",
+      "credit": 3,
+      "grade": null
+    },
+    {
+      "sub_name": "CS6024 - Test Driven Development",
+      "category": "PE",
+      "credit": 3,
+      "grade": null
+    },
+    {
+      "sub_name": "CS6025 - Supply Chain Management",
+      "category": "PE",
+      "credit": 3,
+      "grade": null
+    },
+    {
+      "sub_name": "CS6026 - Game Development",
+      "category": "PE",
+      "credit": 3,
+      "grade": null
+    },
+    {
+      "sub_name": "CS6027 - Modeling and Simulation",
+      "category": "PE",
+      "credit": 3,
+      "grade": null
+    },
+    {
+      "sub_name": "CS6028 - Queuing Theory and Performance Evaluation of Computer Systems",
+      "category": "PE",
+      "credit": 3,
+      "grade": null
+    },
+    {
+      "sub_name": "CS6029 - Social Network Analysis",
+      "category": "PE",
+      "credit": 3,
+      "grade": null
+    },
+    {
+      "sub_name": "CS6030 - Natural Language Processing",
+      "category": "PE",
+      "credit": 3,
+      "grade": null
+    },
+    {
+      "sub_name": "CS6031 - Database Tuning",
+      "category": "PE",
+      "credit": 3,
+      "grade": null
+    },
+    {
+      "sub_name": "CS6032 - Software Defined Networks",
+      "category": "PE",
+      "credit": 3,
+      "grade": null
+    },
+    {
+      "sub_name": "CS6033 - Storage Area Networks",
+      "category": "PE",
+      "credit": 3,
+      "grade": null
+    },
+    {
+      "sub_name": "CS6034 - Service Oriented Architecture",
+      "category": "PE",
+      "credit": 3,
+      "grade": null
+    },
+    {
+      "sub_name": "CS6035 - Entrepreneurship Development",
       "category": "PE",
       "credit": 3,
       "grade": null
